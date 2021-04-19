@@ -16,7 +16,8 @@ const jsPath = 'src/js/**/*.js';
 
 const paths = {
   webroot: "./wwwroot/",
-  node_modules: "./node_modules/"
+  node_modules: "./node_modules/",
+  bootstrapCss: "./node_modules/bootstrap/dist/ccs/bootstrap.css"
 };
 
 const isDev = process.env.NODE_ENV === "development";
