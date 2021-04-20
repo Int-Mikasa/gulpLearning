@@ -51,7 +51,7 @@ function html() {
 
 function css() {
   if (isProd) {
-    return src(['node_modules/bootstrap/dist/ccs/bootstrap.css', 'src/css/**.css'])
+    return src(['node_modules/bootstrap/dist/css/bootstrap.css', 'src/css/**.css'])
       .pipe(csso())
       .pipe(autoprefixer({
         cascade: false
